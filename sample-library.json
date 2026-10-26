@@ -1,0 +1,266 @@
+[
+  {
+    "id": "serendipity",
+    "word": "serendipity",
+    "phonetic": "/ˌser.ənˈdɪp.ə.ti/",
+    "pos": "n.",
+    "meaning": "意外发现美好事物的幸运；机缘巧合",
+    "explanation": "不是刻意寻找，却恰好遇见了惊喜。它强调偶然带来的美好发现，常用于描述生活中的巧遇、旅行中的发现，或科学研究中的意外收获。",
+    "examples": [
+      {
+        "text": "Finding this little bookshop was pure serendipity.",
+        "translation": "发现这家小书店，完全是一场美好的偶遇。"
+      },
+      {
+        "text": "Sometimes, the best ideas come from serendipity rather than careful planning.",
+        "translation": "有时候，最好的想法来自偶然的发现，而非周密的计划。"
+      }
+    ],
+    "phrases": [
+      "pure serendipity",
+      "a moment of serendipity"
+    ],
+    "level": "C1",
+    "category": "life"
+  },
+  {
+    "id": "curious",
+    "word": "curious",
+    "phonetic": "/ˈkjʊr.i.əs/",
+    "pos": "adj.",
+    "meaning": "好奇的；求知欲强的",
+    "explanation": "描述想知道更多、愿意探索的状态。be curious about 表示对某事好奇。它也可以形容事物“奇特、不同寻常”，需要结合上下文判断。",
+    "examples": [
+      {
+        "text": "She is curious about how things work.",
+        "translation": "她对事物的运作方式很好奇。"
+      },
+      {
+        "text": "Stay curious and keep asking questions.",
+        "translation": "保持好奇，不断提问。"
+      }
+    ],
+    "phrases": [
+      "be curious about",
+      "a curious mind"
+    ],
+    "level": "A2",
+    "category": "life"
+  },
+  {
+    "id": "resilient",
+    "word": "resilient",
+    "phonetic": "/rɪˈzɪl.i.ənt/",
+    "pos": "adj.",
+    "meaning": "有韧性的；能迅速恢复的",
+    "explanation": "形容人在压力或挫折后能够调整、恢复，也可以形容材料或系统有弹性、恢复力。名词形式为 resilience，强调恢复和适应的能力。",
+    "examples": [
+      {
+        "text": "Children can be remarkably resilient.",
+        "translation": "孩子们可以展现出惊人的适应力。"
+      },
+      {
+        "text": "We need to build a more resilient team.",
+        "translation": "我们需要建立一支更有韧性的团队。"
+      }
+    ],
+    "phrases": [
+      "a resilient team",
+      "remain resilient"
+    ],
+    "level": "C1",
+    "category": "business"
+  },
+  {
+    "id": "embrace",
+    "word": "embrace",
+    "phonetic": "/ɪmˈbreɪs/",
+    "pos": "v.",
+    "meaning": "欣然接受；拥抱",
+    "explanation": "既可以表示身体上的拥抱，也可以表示主动欢迎新的想法、机会或变化。embrace change 比 accept change 更强调积极态度。",
+    "examples": [
+      {
+        "text": "We should embrace change instead of fearing it.",
+        "translation": "我们应该欣然接受变化，而不是害怕它。"
+      },
+      {
+        "text": "She embraced her friend warmly.",
+        "translation": "她热情地拥抱了朋友。"
+      }
+    ],
+    "phrases": [
+      "embrace change",
+      "embrace an opportunity"
+    ],
+    "level": "B2",
+    "category": "business"
+  },
+  {
+    "id": "wander",
+    "word": "wander",
+    "phonetic": "/ˈwɑːn.dɚ/",
+    "pos": "v.",
+    "meaning": "漫步；闲逛；走神",
+    "explanation": "表示没有固定方向或目的地地走动。也可描述思绪游离：my mind wandered。不要与 wonder（想知道、惊奇）混淆。",
+    "examples": [
+      {
+        "text": "We wandered through the quiet streets.",
+        "translation": "我们漫步在安静的街道上。"
+      },
+      {
+        "text": "My mind began to wander during the long meeting.",
+        "translation": "漫长的会议中，我开始走神。"
+      }
+    ],
+    "phrases": [
+      "wander around",
+      "let your mind wander"
+    ],
+    "level": "B2",
+    "category": "life"
+  },
+  {
+    "id": "perspective",
+    "word": "perspective",
+    "phonetic": "/pɚˈspek.tɪv/",
+    "pos": "n.",
+    "meaning": "观点；看待事物的角度",
+    "explanation": "表示观察或理解事物的方式。from a different perspective 指从不同角度看；put things into perspective 强调结合全局作出合理判断。",
+    "examples": [
+      {
+        "text": "Travel gives us a fresh perspective on life.",
+        "translation": "旅行让我们对生活有了新的认识。"
+      },
+      {
+        "text": "Try to see the problem from her perspective.",
+        "translation": "试着从她的角度看待这个问题。"
+      }
+    ],
+    "phrases": [
+      "a fresh perspective",
+      "from my perspective"
+    ],
+    "level": "B2",
+    "category": "business"
+  },
+  {
+    "id": "thoughtful",
+    "word": "thoughtful",
+    "phonetic": "/ˈθɔːt.fəl/",
+    "pos": "adj.",
+    "meaning": "体贴的；深思熟虑的",
+    "explanation": "既可以形容为别人着想的人或举动，也可以形容经过认真思考的意见。a thoughtful gift 是一份用心挑选的礼物。",
+    "examples": [
+      {
+        "text": "That was a thoughtful gift.",
+        "translation": "那是一份很贴心的礼物。"
+      }
+    ],
+    "phrases": [
+      "a thoughtful gesture",
+      "a thoughtful response"
+    ],
+    "level": "B1",
+    "category": "life"
+  },
+  {
+    "id": "clarity",
+    "word": "clarity",
+    "phonetic": "/ˈkler.ə.ti/",
+    "pos": "n.",
+    "meaning": "清晰；清楚易懂",
+    "explanation": "用于表达思路、语言或目标的清楚程度。clarity of purpose 表示目标明确。形容词形式是 clear。",
+    "examples": [
+      {
+        "text": "Please explain the idea with greater clarity.",
+        "translation": "请把这个想法解释得更清楚一些。"
+      }
+    ],
+    "phrases": [
+      "clarity of purpose",
+      "bring clarity"
+    ],
+    "level": "C1",
+    "category": "business"
+  },
+  {
+    "id": "cherish",
+    "word": "cherish",
+    "phonetic": "/ˈtʃer.ɪʃ/",
+    "pos": "v.",
+    "meaning": "珍惜；珍爱",
+    "explanation": "表示对人、经历或回忆怀有深厚感情，并认真珍惜。与 value 相比，cherish 更带有情感色彩。",
+    "examples": [
+      {
+        "text": "I cherish the memories of our time together.",
+        "translation": "我珍惜我们相处时留下的回忆。"
+      }
+    ],
+    "phrases": [
+      "cherish a memory",
+      "cherish every moment"
+    ],
+    "level": "C1",
+    "category": "life"
+  },
+  {
+    "id": "collaborate",
+    "word": "collaborate",
+    "phonetic": "/kəˈlæb.ə.reɪt/",
+    "pos": "v.",
+    "meaning": "合作；协作",
+    "explanation": "表示与别人共同完成项目或实现目标。常见结构为 collaborate with somebody on something。",
+    "examples": [
+      {
+        "text": "Our teams collaborate on new projects.",
+        "translation": "我们的团队在新项目上开展合作。"
+      }
+    ],
+    "phrases": [
+      "collaborate with",
+      "collaborate on a project"
+    ],
+    "level": "C1",
+    "category": "business"
+  },
+  {
+    "id": "bloom",
+    "word": "bloom",
+    "phonetic": "/bluːm/",
+    "pos": "v. / n.",
+    "meaning": "开花；花朵；蓬勃发展",
+    "explanation": "表示植物开花，也可以比喻人、关系或事业进入成长的好阶段。in bloom 表示花正盛开。",
+    "examples": [
+      {
+        "text": "The garden is in full bloom.",
+        "translation": "花园里的花正盛开。"
+      }
+    ],
+    "phrases": [
+      "in full bloom",
+      "come into bloom"
+    ],
+    "level": "B2",
+    "category": "life"
+  },
+  {
+    "id": "initiative",
+    "word": "initiative",
+    "phonetic": "/ɪˈnɪʃ.ə.tɪv/",
+    "pos": "n.",
+    "meaning": "主动性；新举措",
+    "explanation": "表示无需等待指示就主动采取行动的能力；也可以指为解决问题开展的计划。take the initiative 表示带头行动。",
+    "examples": [
+      {
+        "text": "She took the initiative and organized the meeting.",
+        "translation": "她主动安排了会议。"
+      }
+    ],
+    "phrases": [
+      "take the initiative",
+      "a new initiative"
+    ],
+    "level": "B2",
+    "category": "business"
+  }
+]
