@@ -2,14 +2,16 @@
 
 访问：https://feworker.github.io/words/
 
-使用 shadcn/ui、React、TypeScript、Tailwind、CVA 与 lucide。支持词库导入、词义讲解、双语例句、收藏、学习记录、笔记与微软语音播放。
+使用 React、TypeScript、shadcn/ui、Tailwind、CVA 与 lucide。支持词库导入、讲解、双语例句、收藏、学习记录、笔记和微软语音播放。
 
-当前仓库根目录是 GitHub Pages 构建产物；完整可运行源码与 Python 查词/TTS 后端在 [source.zip](./source.zip) 中。解压后 `npm install && npm start` 本地运行；`npm run build:pages` 重建 /words/ 部署产物。发布包不含本机用户学习数据或凭据。
+## GitHub Actions 音频构建与发布
 
-Pages 设置：Deploy from a branch → main → /(root)。
+`.github/workflows/pages.yml` 从 `source.zip` 解压完整源码，安装锁定依赖，读取与页面共用的 `src/lib/words.ts`，为每个单词和英文例句生成 Jenny、Aria、Ryan 三种 Microsoft 神经语音 MP3。
 
-## 语音与查词
+所有音频经 ffprobe 校验后，Actions 构建页面并部署 GitHub Pages。合成需要在构建阶段连接微软，线上播放使用静态 MP3，无需 TTS 服务。缓存复用未变更音频，失败重试；任一音频失败则停止发布，保留上次线上版本。
 
-预置 12 词、18 条例句使用真实 Microsoft Jenny MP3，可直接播放。新词查词与非预置音频需要联网服务。GitHub Pages 不运行 Python 后端；请在页面播放设置中填写 HTTPS 服务地址，或配置 words-config.js 的 WORDS_SERVICE_ENDPOINT。后端需支持 POST /api/lookup、POST /api/tts 并允许 https://feworker.github.io 跨域。服务端示例与详细启动方法见源码 README。
+Pages Source：GitHub Actions。源码或工作流推送到 main 会触发构建，也支持 Actions 中手动 Run workflow。仓库根目录的旧静态构建文件不再作为发布源。
 
-当前没有配置公网后端，因此新词联网补全和动态微软发音待配置；默认不使用系统语音代替。
+更新词库：解压 source.zip，修改 src/lib/words.ts 的 samples，重新打包 source.zip 并提交。完整本地启动说明见源码 README。
+
+浏览器中新导入/搜索的词汇仅保存于该浏览器；需导出并加入仓库词库、重新构建才能生成静态音频。联网查词仍需要独立服务。
