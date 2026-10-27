@@ -2,7 +2,7 @@ name: Build words and Microsoft audio
 on:
   push:
     branches: [main]
-    paths: [source.zip, '.github/workflows/pages.yml']
+    paths: ['assets/source.zip', source.zip, '.github/workflows/pages.yml']
   workflow_dispatch:
 permissions:
   contents: read
@@ -16,7 +16,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Extract runnable source
-        run: unzip -q source.zip -d extracted
+        run: |
+          source_archive=assets/source.zip
+          # Compatibility during migration from the old archive location.
+          if [ ! -f "$source_archive" ]; then source_archive=source.zip; fi
+          unzip -q "$source_archive" -d extracted
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
