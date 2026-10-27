@@ -15,3 +15,5 @@ Pages Source：GitHub Actions。源码或工作流推送到 main 会触发构建
 更新词库：解压 source.zip，修改 src/lib/words.ts 的 samples，重新打包 source.zip 并提交。完整本地启动说明见源码 README。
 
 浏览器中新导入/搜索的词汇仅保存于该浏览器；需导出并加入仓库词库、重新构建才能生成静态音频。联网查词仍需要独立服务。
+
+音频统一保存在发布包的 `audio/` 目录，线上地址为 `/words/audio/<hash>.mp3`。打包阶段校验所有索引路径，拒绝根目录 MP3。
